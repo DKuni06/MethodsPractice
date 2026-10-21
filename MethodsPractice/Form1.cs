@@ -9,9 +9,9 @@ namespace MethodsPractice
         /// <summary>
         /// Checks if a number is within a specific inclusive range
         /// </summary>
-        /// <param name="numCheck"></param>
-        /// <param name="minVal"></param>
-        /// <param name="maxVal"></param>
+        /// <param name="numCheck">The number to check if it's within the range</param>
+        /// <param name="minVal">Minimum inclusive value to compare</param>
+        /// <param name="maxVal">Maximum inclusive value to compare</param>
         /// <returns></returns>
         private static bool IsWithinRange(int numCheck, int minVal, int maxVal)
         {
