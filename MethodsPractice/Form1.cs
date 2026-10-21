@@ -13,7 +13,7 @@ namespace MethodsPractice
         /// <param name="minVal"></param>
         /// <param name="maxVal"></param>
         /// <returns></returns>
-        private bool IsWithinRange(int numCheck, int minVal, int maxVal)
+        private static bool IsWithinRange(int numCheck, int minVal, int maxVal)
         {
             if (numCheck >= minVal && numCheck <= maxVal)
             {
